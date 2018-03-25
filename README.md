@@ -1,8 +1,12 @@
 # distribution
 Covering the major kinds of distributions
 
-1. Normal distribution
+<hr>
+1. <a href="https://en.wikipedia.org/wiki/Normal_distribution">Normal distribution</a>
 
+According to the **central limit theorem**, with sample size n>=30 (that is, a sufficiently large sample size), regardless the distribution of the population, all the sample mean will follow a (1) normal distribution, (2) the mean of all samples will be approximately equal to the mean of the population, and (3) the variance of all the sample means will be equal to the variance of the population divided by sample size.
+
+<img src="./images/normal_distribution.png" width="50%" />
 
 <hr>
 2. <a href="https://en.wikipedia.org/wiki/Poisson_distribution">Poisson distribution</a>
