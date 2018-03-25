@@ -28,8 +28,8 @@ plt.show()
 # Poisson Distribution
 # For discrete outcomes (e.g., the number of customers visiting your lane in a supermarket for check out during 4:30-4:50), with known expected average outcome
 # Watch this for the Wal-Mart example (https://www.youtube.com/watch?v=8px7xuk_7OU)
-n = np.arange(0, 30)  # the number of possible occurrences of interest, say the number of customers that might show up during 4:30-4:45pm
-lambda_coef = 10   # long-run average, say, the expected number of customers in Walmart cashier lane between 4:30-4:45pm is 10
+n = np.arange(970, 1030)  # the number of possible occurrences of interest, say the number of visitors that might show up during 10-10:30pm on a Tuesday night
+lambda_coef = 1000   # long-run average, say, the expected number of customers in Amazon website between 10:00-10:30pm on a Tuesday night is 1000
 y = stats.poisson.pmf(n, lambda_coef)  # Probability Mass Function is the probability density function for discrete outcome
 plt.figure(num=None, figsize=(8, 6), dpi=80, facecolor='w', edgecolor='k')
 plt.plot(n, y, 'o-')
