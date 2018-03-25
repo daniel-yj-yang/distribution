@@ -23,3 +23,12 @@ A **discrete** probability distribution of the number of successes in a sequence
 
 Example: the probability of heads over 10 coin tosses:<br>
 <img src="./images/binomial_distribution.png" width="50%" />
+
+<hr>
+4. <a href="https://en.wikipedia.org/wiki/Logistic_distribution">Logistic distribution</a>
+
+A continuous probability distribution that has important roles in logistic regression and neural networks.
+Its shape looks like a bell shape, but it tends to have heavier tails than a normal distribution
+
+Example: A logistic distribution with mu (location = 10) and s (scale = 1):<br>
+<img src="./images/logistic_distribution.png" width="50%" />
