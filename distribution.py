@@ -7,7 +7,7 @@ Created on Wed Feb  7 21:17:50 2018
 """
 
 import numpy as np
-from scipy import stats
+from scipy import stats, exp
 from matplotlib import pyplot as plt
 
 # Normal Distribution 
@@ -48,4 +48,17 @@ p = 0.5 # probability of the head
 y = stats.binom.pmf(k, n, p)
 plt.figure(num=None, figsize=(8, 6), dpi=80, facecolor='w', edgecolor='k')
 plt.plot(k, y, 'o-')
+plt.show()
+
+
+
+# Logistic distribution
+# https://docs.scipy.org/doc/numpy/reference/generated/numpy.random.logistic.html
+loc, scale = 10, 1
+s = np.random.logistic(loc, scale, 10000)
+count, bins, ignored = plt.hist(s, bins=50)
+
+def logist(x, loc, scale):
+    return exp((loc-x)/scale)/(scale*(1+exp((loc-x)/scale))**2)
+plt.plot(bins, logist(bins, loc, scale)*count.max()/logist(bins, loc, scale).max())
 plt.show()
