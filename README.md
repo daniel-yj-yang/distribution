@@ -24,6 +24,8 @@ A **discrete** probability distribution of the number of successes in a sequence
 Example: the probability of heads over 10 coin tosses:<br>
 <img src="./images/binomial_distribution.png" width="50%" />
 
+<iframe src="http://glimmer.rstudio.com/rstudio/faithful/" style="border: none; width: 440px; height: 500px"></iframe>
+
 <hr>
 4. <a href="https://en.wikipedia.org/wiki/Logistic_distribution">Logistic distribution</a>
 
