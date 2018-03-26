@@ -24,6 +24,8 @@ A **discrete** probability distribution of the number of successes in a sequence
 Example: the probability of heads over 10 coin tosses:<br>
 <img src="./images/binomial_distribution.png" width="50%" />
 
+Here is a <a href="https://danielyang.shinyapps.io/Binomial_distribution/">Shiny app</a> I created to play around the number of total coin tosses and visualize the changes in the distribution.
+
 <hr>
 4. <a href="https://en.wikipedia.org/wiki/Logistic_distribution">Logistic distribution</a>
 
