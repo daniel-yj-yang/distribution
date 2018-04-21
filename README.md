@@ -35,5 +35,7 @@ Its shape looks like a bell shape, but it tends to have heavier tails than a nor
 Example: A logistic distribution with mu (location = 10) and s (scale = 1):<br>
 <img src="./images/logistic_distribution.png" width="50%" />
 
+Related: <a href="https://github.com/yj-danielyang/logistic-regression">My logistic regression webpage</a>
+
 <hr>
 5. Here is a <a href="https://gallery.shinyapps.io/dist_calc/">Shiny App</a> I found that covers 5 different distriubtions: Normal, Binomial, t, F, Chi-squared
