@@ -1,3 +1,5 @@
+library(shiny)
+
 server <- function(input, output) {
   output$density <- renderPlot({
     x <- seq(0,input$n,by=1)
