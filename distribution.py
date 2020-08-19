@@ -55,16 +55,35 @@ plt.show()
 # Logistic distribution
 # https://docs.scipy.org/doc/numpy/reference/generated/numpy.random.logistic.html
 loc, scale = 10, 1
-s = np.random.logistic(loc, scale, 10000)
+s = np.random.logistic(loc, scale, 100000)
 count, bins, ignored = plt.hist(s, bins=50)
 
-def logist(x, loc, scale):
+def logistic_pdf(x, loc, scale):
     return exp((loc-x)/scale)/(scale*(1+exp((loc-x)/scale))**2)
-plt.plot(bins, logist(bins, loc, scale)*count.max()/logist(bins, loc, scale).max())
+
+def logistic_cdf(x, loc, scale):
+    return 1/(1+(exp((loc-x)/scale)))
+
+plt.plot(bins, logistic_pdf(bins, loc, scale)*count.max()/logistic_pdf(bins, loc, scale).max())
+plt.show()
+
+plt.plot(bins, logistic_cdf(bins, loc, scale)*count.max()/logistic_cdf(bins, loc, scale).max())
 plt.show()
 
 
 
+# Logistic distribution
+loc, scale = 10, 1
+x = np.arange(-5,25,0.1)
+y = stats.logistic.pdf(x, loc, scale) # pdf
+plt.figure(num=None, figsize=(8, 6), dpi=80, facecolor='w', edgecolor='k')
+plt.plot(x, y)
+plt.show()
+
+y = stats.logistic.cdf(x, loc, scale) # cdf
+plt.figure(num=None, figsize=(8, 6), dpi=80, facecolor='w', edgecolor='k')
+plt.plot(x, y)
+plt.show()
 
 # Chi-square distribution
 # https://machinelearningmastery.com/statistical-data-distributions/
