@@ -8,3 +8,4 @@ server <- function(input, output) {
     lines(x,y)
   }, width=600)
 }
+
