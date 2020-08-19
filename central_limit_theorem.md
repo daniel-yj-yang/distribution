@@ -1,4 +1,4 @@
-Central limit theorem:
+## Central limit theorem
 
 *	With sample size n>=30, regardless the distribution of the population, all the sample mean will follow a normal distribution, with variance being equal to the variance of the population divided by sample size.
 
