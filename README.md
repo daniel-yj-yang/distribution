@@ -38,4 +38,11 @@ Example: A logistic distribution with mu (location = 10) and s (scale = 1):<br>
 Related: <a href="https://github.com/yj-danielyang/logistic-regression">My logistic regression webpage</a>
 
 <hr>
-5. Here is a <a href="https://gallery.shinyapps.io/dist_calc/">Shiny App</a> I found that covers 5 different distriubtions: Normal, Binomial, t, F, Chi-squared. Here is <a href="https://leonawicz.github.io/blog/post/shiny-app-distributions-of-random-variables/">another one</a> that is pretty cool!
+5. Chi-squared distribution
+
+Probability Density Function | Cumulative Density Function
+--- | ---
+<img src="./images/chi2_pdf.png"> | <img src="./images/chi2_cdf.png">
+
+<hr>
+6. Here is a <a href="https://gallery.shinyapps.io/dist_calc/">Shiny App</a> I found that covers 5 different distriubtions: Normal, Binomial, t, F, Chi-squared. Here is <a href="https://leonawicz.github.io/blog/post/shiny-app-distributions-of-random-variables/">another one</a> that is pretty cool!
