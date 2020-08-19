@@ -32,7 +32,7 @@ Here is a R-based <a href="https://danielyang.shinyapps.io/Binomial_distribution
 <hr>
 
 4. <a href="https://en.wikipedia.org/wiki/Logistic_distribution">Logistic distribution</a>
-<br/>
+
 A continuous probability distribution that has important roles in logistic regression and neural networks.
 Its shape looks like a bell shape, but it tends to have heavier tails than a normal distribution
 
@@ -46,7 +46,7 @@ Related: <a href="https://github.com/yj-danielyang/logistic-regression">My logis
 <hr>
 
 5. <a href="https://en.wikipedia.org/wiki/Chi-square_distribution">Chi-square distribution</a>
-<br/>
+
 Example:
 <i>df</i> | Probability Density Function | Cumulative Density Function
 --- | --- | ---
