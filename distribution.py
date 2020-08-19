@@ -10,10 +10,10 @@ import numpy as np
 from scipy import stats, exp
 from matplotlib import pyplot as plt
 
-# Normal Distribution 
+# Normal Distribution
 mu = 0 # mean
 sigma = 1 # standard deviation
-x = np.arange(-5,5,0.1) 
+x = np.arange(-5,5,0.1)
 
 y = stats.norm.pdf(x, mu, sigma)
 plt.figure(num=None, figsize=(8, 6), dpi=80, facecolor='w', edgecolor='k')
@@ -44,7 +44,7 @@ print("The probability that exactly 7 customers enter my lane between 4:30-4:45 
 # Binomial Distribution
 n = 10 # number of coins tossed
 k = np.arange(0,n+1) # number of heads
-p = 0.5 # probability of the head 
+p = 0.5 # probability of the head
 y = stats.binom.pmf(k, n, p)
 plt.figure(num=None, figsize=(8, 6), dpi=80, facecolor='w', edgecolor='k')
 plt.plot(k, y, 'o-')
@@ -62,3 +62,26 @@ def logist(x, loc, scale):
     return exp((loc-x)/scale)/(scale*(1+exp((loc-x)/scale))**2)
 plt.plot(bins, logist(bins, loc, scale)*count.max()/logist(bins, loc, scale).max())
 plt.show()
+
+
+
+
+# Chi-square distribution
+# https://machinelearningmastery.com/statistical-data-distributions/
+# plot the chi-squared pdf
+from numpy import arange
+from matplotlib import pyplot
+from scipy.stats import chi2
+# define the distribution parameters
+sample_space = arange(0, 50, 0.01)
+dof = 20
+# calculate the pdf
+pdf = chi2.pdf(sample_space, dof)
+# plot
+pyplot.plot(sample_space, pdf)
+pyplot.show()
+# calculate the cdf
+cdf = chi2.cdf(sample_space, dof)
+# plot
+pyplot.plot(sample_space, cdf)
+pyplot.show()
