@@ -32,14 +32,17 @@ Here is a R-based <a href="https://danielyang.shinyapps.io/Binomial_distribution
 A continuous probability distribution that has important roles in logistic regression and neural networks.
 Its shape looks like a bell shape, but it tends to have heavier tails than a normal distribution
 
-Example: A logistic distribution with mu (location = 10) and s (scale = 1):<br>
-<img src="./images/logistic_distribution.png" width="50%" />
+Example: 
+loc/mu | scale | Probability Density Function | Cumulative Density Function
+--- | --- | --- | ---
+10 | 1 | <img src="./images/logistic_loc=10_scale=1_pdf.png"> | <img src="./images/logistic_loc=10_scale=1_cdf.png">
 
 Related: <a href="https://github.com/yj-danielyang/logistic-regression">My logistic regression webpage</a>
 
 <hr>
 5. <a href="https://en.wikipedia.org/wiki/Chi-square_distribution">Chi-square distribution</a>
 
+Example:
 <i>df</i> | Probability Density Function | Cumulative Density Function
 --- | --- | ---
 <i>df</i> = 1 | <img src="./images/chi2_df=1_pdf.png"> | <img src="./images/chi2_df=1_cdf.png">
