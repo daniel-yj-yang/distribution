@@ -38,7 +38,7 @@ Example: A logistic distribution with mu (location = 10) and s (scale = 1):<br>
 Related: <a href="https://github.com/yj-danielyang/logistic-regression">My logistic regression webpage</a>
 
 <hr>
-5. Chi-squared distribution
+5. <a href="https://en.wikipedia.org/wiki/Chi-square_distribution">Chi-square distribution</a>
 
 Probability Density Function | Cumulative Density Function
 --- | ---
