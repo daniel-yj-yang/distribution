@@ -40,10 +40,10 @@ Related: <a href="https://github.com/yj-danielyang/logistic-regression">My logis
 <hr>
 5. <a href="https://en.wikipedia.org/wiki/Chi-square_distribution">Chi-square distribution</a>
 
-df | Probability Density Function | Cumulative Density Function
+<i>df</i> | Probability Density Function | Cumulative Density Function
 --- | --- | ---
-df = 1 | <img src="./images/chi2_df=1_pdf.png"> | <img src="./images/chi2_df=1_cdf.png">
-df = 3 | <img src="./images/chi2_df=3_pdf.png"> | <img src="./images/chi2_df=3_cdf.png">
+<i>df</i> = 1 | <img src="./images/chi2_df=1_pdf.png"> | <img src="./images/chi2_df=1_cdf.png">
+<i>df</i> = 3 | <img src="./images/chi2_df=3_pdf.png"> | <img src="./images/chi2_df=3_cdf.png">
 
 <hr>
 6. Here is a <a href="https://gallery.shinyapps.io/dist_calc/">Shiny App</a> I found that covers 5 different distriubtions: Normal, Binomial, t, F, Chi-squared. Here is <a href="https://leonawicz.github.io/blog/post/shiny-app-distributions-of-random-variables/">another one</a> that is pretty cool!
