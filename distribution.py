@@ -79,14 +79,19 @@ print("The probability that exactly 7 customers enter my lane between 4:30-4:45 
 k = np.array([0,1]) # 0 = tail, 1 = head
 p = 0.7 # probability of the head
 y = stats.bernoulli.pmf(k, p)
-plt.figure(num=None, figsize=(8, 6), dpi=80, facecolor='w', edgecolor='k')
-plt.bar(k, y)
+fig = plt.figure(num=None, figsize=(8, 6), dpi=80, facecolor='w', edgecolor='k')
+ax = fig.add_axes([0,0,1,1])
+ax.bar(['0','1'], y)
+plt.xlabel('k')
 plt.ylim(0,1)
 plt.show()
 
+
 y = stats.bernoulli.cdf(k, p)
-plt.figure(num=None, figsize=(8, 6), dpi=80, facecolor='w', edgecolor='k')
-plt.bar(k, y)
+fig = plt.figure(num=None, figsize=(8, 6), dpi=80, facecolor='w', edgecolor='k')
+ax = fig.add_axes([0,0,1,1])
+ax.bar(['0','1'], y)
+plt.xlabel('k')
 plt.ylim(0,1)
 plt.show()
 
@@ -101,15 +106,36 @@ p = 0.5 # probability of the head
 y = stats.binom.pmf(k, n, p)
 plt.figure(num=None, figsize=(8, 6), dpi=80, facecolor='w', edgecolor='k')
 plt.bar(k,y)
+plt.xlabel('k')
 plt.plot(k, y, 'o-r')
 plt.show()
 
 y = stats.binom.cdf(k, n, p)
 plt.figure(num=None, figsize=(8, 6), dpi=80, facecolor='w', edgecolor='k')
 plt.bar(k,y)
+plt.xlabel('k')
 plt.plot(k, y, 'o-r')
 plt.show()
 
+
+
+
+# Geometric Distribution
+k = np.arange(1,11) # number of heads
+p = 0.5 # probability of the head
+y = stats.geom.pmf(k, p)
+plt.figure(num=None, figsize=(8, 6), dpi=80, facecolor='w', edgecolor='k')
+plt.bar(k,y)
+plt.xlabel('k')
+plt.plot(k, y, 'o-r')
+plt.show()
+
+y = stats.geom.cdf(k, p)
+plt.figure(num=None, figsize=(8, 6), dpi=80, facecolor='w', edgecolor='k')
+plt.bar(k,y)
+plt.xlabel('k')
+plt.plot(k, y, 'o-r')
+plt.show()
 
 
 
