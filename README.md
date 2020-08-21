@@ -17,7 +17,7 @@ Probability Density Function | Cumulative Distribution Function
 
 Example | Probability Density Function | Cumulative Distribution Function
 --- | --- | ---
-Bivariate<br/>(<a href="./bivariate_normal_grapher_example">Grahper example</a>) | <img src="./images/bivariate_normal_pdf.png"/> | <img src="./images/bivariate_normal_cdf.png" />
+Bivariate<br/>(<a href="./Grapher/bivariate_normal_grapher_example.gcx">Grahper example</a>) | <img src="./images/bivariate_normal_pdf.png"/> | <img src="./images/bivariate_normal_cdf.png" />
 
 <hr>
 
