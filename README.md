@@ -15,7 +15,7 @@ Probability Density Function | Cumulative Distribution Function
 
 2. <a href="https://en.wikipedia.org/wiki/Multivariate_normal_distribution">Multivariate normal distribution</a>
 
-Distribution | Probability Density Function | Cumulative Distribution Function
+Example | Probability Density Function | Cumulative Distribution Function
 --- | --- | ---
 Bivariate | <img src="./images/bivariate_normal_pdf.png"/> | <img src="./images/bivariate_normal_cdf.png" />
 
@@ -31,7 +31,7 @@ Used in <a href="https://lvdmaaten.github.io/tsne/">t-SNE</a>
 
 <hr>
 
-3. <a href="https://en.wikipedia.org/wiki/Poisson_distribution">Poisson distribution</a>
+4. <a href="https://en.wikipedia.org/wiki/Poisson_distribution">Poisson distribution</a>
 
 A **discrete** probability distribution that expresses the probability of a given number of **discrete** events (e.g., number of visitors on an Amazon website) occurring in a fixed interval of time (e.g., between 10:00-10:30pm on a Tuesday night) or space if these events occur with a known constant rate (e.g., on average, there are 1000 visitors between 10-10:30pm on a Tuesday night) and independently of the time since the last event.
 
@@ -40,7 +40,7 @@ Example: the probability of n visitiors between 10-10:30am on a Tuesday night:<b
 
 <hr>
 
-4. <a href="https://en.wikipedia.org/wiki/Bernoulli_distribution">Bernoulli distribution</a>
+5. <a href="https://en.wikipedia.org/wiki/Bernoulli_distribution">Bernoulli distribution</a>
 
 Used in <a href="https://en.wikipedia.org/wiki/Naive_Bayes_classifier">Naive Bayesian classifier</a>
 
@@ -52,7 +52,7 @@ p | Probability Mass Function | Cumulative Distribution Function
 
 <hr>
 
-5. <a href="https://en.wikipedia.org/wiki/Binomial_distribution">Binomial distribution</a>
+6. <a href="https://en.wikipedia.org/wiki/Binomial_distribution">Binomial distribution</a>
 
 A **discrete** probability distribution of the number of successes in a sequence of n independent experiments (e.g., n=10 coins tossed), each asking a yes–no question (e.g., coin toss being a head or tail).
 
@@ -66,7 +66,7 @@ See also: <a href="https://en.wikipedia.org/wiki/Multinomial_distribution">Multi
 
 <hr>
 
-6. <a href="https://en.wikipedia.org/wiki/Geometric_distribution">Geometric distribution</a>
+7. <a href="https://en.wikipedia.org/wiki/Geometric_distribution">Geometric distribution</a>
 
 It gives the probability that the first k − 1 trials are failures, while the kth trial is the first success.
 
@@ -77,7 +77,7 @@ p of head | Probability Mass Function | Cumulative Distribution Function
 
 <hr>
 
-7. <a href="https://en.wikipedia.org/wiki/Logistic_distribution">Logistic distribution</a>
+8. <a href="https://en.wikipedia.org/wiki/Logistic_distribution">Logistic distribution</a>
 
 A continuous probability distribution that has important roles in logistic regression and neural networks.
 Its shape looks like a bell shape, but it tends to have heavier tails than a normal distribution
@@ -91,17 +91,13 @@ Related: <a href="https://github.com/yj-danielyang/logistic-regression">My logis
 
 <hr>
 
-8. <a href="https://en.wikipedia.org/wiki/Chi-square_distribution">Chi-square distribution</a>
+9. <a href="https://en.wikipedia.org/wiki/Chi-square_distribution">Chi-square distribution</a>
 
 Example:
 <i>df</i> | Probability Density Function | Cumulative Distribution Function
 --- | --- | ---
 <i>df</i> = 1 | <img src="./images/chi2_df=1_pdf.png"> | <img src="./images/chi2_df=1_cdf.png">
 <i>df</i> = 3 | <img src="./images/chi2_df=3_pdf.png"> | <img src="./images/chi2_df=3_cdf.png">
-
-<hr>
-
-9. Here is a <a href="https://gallery.shinyapps.io/dist_calc/">Shiny App</a> I found that covers 5 different distriubtions: Normal, Binomial, t, F, Chi-squared. Here is <a href="https://leonawicz.github.io/blog/post/shiny-app-distributions-of-random-variables/">another one</a> that is pretty cool!
 
 <hr>
 
@@ -117,3 +113,10 @@ Gamma-Poisson distribution | <a href="https://towardsdatascience.com/calogica-co
 Dirichlet-Multinomial distribution | <a href="https://towardsdatascience.com/calogica-com-dice-polls-dirichlet-multinomials-eca987e6ec3f">reference</a>
 <a href="https://en.wikipedia.org/wiki/Negative_binomial_distribution">Negative binomial distribution | ---
 <a href="https://en.wikipedia.org/wiki/Box%E2%80%93Cox_distribution">Box-Cox distribution</a> (power-normal distribution) | glmnet()
+  
+<hr>
+
+#### References:
+
+Here is a <a href="https://gallery.shinyapps.io/dist_calc/">Shiny App</a> I found that covers 5 different distriubtions: Normal, Binomial, t, F, Chi-squared. Here is <a href="https://leonawicz.github.io/blog/post/shiny-app-distributions-of-random-variables/">another one</a> that is pretty cool!
+
