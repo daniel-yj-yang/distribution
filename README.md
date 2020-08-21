@@ -86,10 +86,10 @@ Example:
 
 <hr>
 
-9. Other distribution: 
+9. Other distributions: 
 
-Distribution
----
-<a href="https://en.wikipedia.org/wiki/Beta_distribution">Beta distribution</a>
-<a href="https://en.wikipedia.org/wiki/Gamma_distribution">Gamma distribution</a>
-<a href="https://en.wikipedia.org/wiki/Dirichlet_distribution">Dirichlet distribution</a>
+Distribution | Use
+--- | ---
+<a href="https://en.wikipedia.org/wiki/Beta_distribution">Beta distribution</a> | ---
+<a href="https://en.wikipedia.org/wiki/Gamma_distribution">Gamma distribution</a> | ---
+<a href="https://en.wikipedia.org/wiki/Dirichlet_distribution">Dirichlet distribution</a> | ---
