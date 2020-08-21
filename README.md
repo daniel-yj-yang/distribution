@@ -113,10 +113,11 @@ Gamma-Poisson distribution | <a href="https://towardsdatascience.com/calogica-co
 Dirichlet-Multinomial distribution | <a href="https://towardsdatascience.com/calogica-com-dice-polls-dirichlet-multinomials-eca987e6ec3f">reference</a>
 <a href="https://en.wikipedia.org/wiki/Negative_binomial_distribution">Negative binomial distribution | ---
 <a href="https://en.wikipedia.org/wiki/Box%E2%80%93Cox_distribution">Box-Cox distribution</a> (power-normal distribution) | glmnet()
+<a href="https://en.wikipedia.org/wiki/F-distribution">F-distribution</a> | ANOVA
   
 <hr>
 
 #### References:
 
-Here is a <a href="https://gallery.shinyapps.io/dist_calc/">Shiny App</a> I found that covers 5 different distriubtions: Normal, Binomial, t, F, Chi-squared. Here is <a href="https://leonawicz.github.io/blog/post/shiny-app-distributions-of-random-variables/">another one</a> that is pretty cool!
+Here is a <a href="https://gallery.shinyapps.io/dist_calc/">Shiny App</a> that covers 5 different distriubtions: Normal, Binomial, t, F, Chi-squared. Here is <a href="https://leonawicz.github.io/blog/post/shiny-app-distributions-of-random-variables/">another one</a> that is pretty cool!
 
