@@ -54,9 +54,17 @@ p of head | n coin tosses | Probability Mass Function | Cumulative Distribution 
 
 Here is a R-based <a href="https://danielyang.shinyapps.io/Binomial_distribution/">Shiny app</a> I created to play around the number of total coin tosses and visualize the changes in the distribution.
 
+See also: <a href="https://en.wikipedia.org/wiki/Multinomial_distribution">Multinomial distribution</a> (e.g., it models the probability of counts for each side of a k-sided die rolled n times)
+
 <hr>
 
-6. <a href="https://en.wikipedia.org/wiki/Logistic_distribution">Logistic distribution</a>
+6. <a href="https://en.wikipedia.org/wiki/Geometric_distribution">Geometric distribution</a>
+
+It gives the probability that the first k − 1 trials are failures, while the kth trial is the first success.
+
+<hr>
+
+7. <a href="https://en.wikipedia.org/wiki/Logistic_distribution">Logistic distribution</a>
 
 A continuous probability distribution that has important roles in logistic regression and neural networks.
 Its shape looks like a bell shape, but it tends to have heavier tails than a normal distribution
@@ -70,7 +78,7 @@ Related: <a href="https://github.com/yj-danielyang/logistic-regression">My logis
 
 <hr>
 
-7. <a href="https://en.wikipedia.org/wiki/Chi-square_distribution">Chi-square distribution</a>
+8. <a href="https://en.wikipedia.org/wiki/Chi-square_distribution">Chi-square distribution</a>
 
 Example:
 <i>df</i> | Probability Density Function | Cumulative Distribution Function
@@ -80,4 +88,18 @@ Example:
 
 <hr>
 
-8. Here is a <a href="https://gallery.shinyapps.io/dist_calc/">Shiny App</a> I found that covers 5 different distriubtions: Normal, Binomial, t, F, Chi-squared. Here is <a href="https://leonawicz.github.io/blog/post/shiny-app-distributions-of-random-variables/">another one</a> that is pretty cool!
+9. Here is a <a href="https://gallery.shinyapps.io/dist_calc/">Shiny App</a> I found that covers 5 different distriubtions: Normal, Binomial, t, F, Chi-squared. Here is <a href="https://leonawicz.github.io/blog/post/shiny-app-distributions-of-random-variables/">another one</a> that is pretty cool!
+
+<hr>
+
+10. Other distributions: 
+
+Distribution | Use
+--- | ---
+<a href="https://en.wikipedia.org/wiki/Beta_distribution">Beta distribution</a> | ---
+<a href="https://en.wikipedia.org/wiki/Beta-binomial_distribution">Beta-binomial distribution</a> | <a href="https://towardsdatascience.com/calogica-com-dice-polls-dirichlet-multinomials-eca987e6ec3f">reference</a>
+<a href="https://en.wikipedia.org/wiki/Gamma_distribution">Gamma distribution</a> | ---
+Gamma-Poisson distribution | <a href="https://towardsdatascience.com/calogica-com-dice-polls-dirichlet-multinomials-eca987e6ec3f">reference</a>
+<a href="https://en.wikipedia.org/wiki/Dirichlet_distribution">Dirichlet distribution</a> | ---
+Dirichlet-Multinomial distribution | <a href="https://towardsdatascience.com/calogica-com-dice-polls-dirichlet-multinomials-eca987e6ec3f">reference</a>
+<a href="https://en.wikipedia.org/wiki/Negative_binomial_distribution">Negative binomial distribution | ---
