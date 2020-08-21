@@ -1,5 +1,5 @@
 # Distribution
-Covering the major kinds of distributions (visualization via a <a href="./distribution.py">Python code</a>)
+Covering the major kinds of distributions (visualization via a <a href="./distribution.py">Python code</a> I built)
 
 <hr>
 
