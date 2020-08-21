@@ -40,7 +40,7 @@ Used in <a href="https://en.wikipedia.org/wiki/Naive_Bayes_classifier">Naive Bay
 
 p | Probability Mass Function | Cumulative Distribution Function
 --- | --- | ---
-0.7 | <img src="./images/Bernoulli_p=0.7_pmf.png"/> | <img src="./images/Bernoulli_p=0.7_cdf.png" />
+0.7 | <img src="./images/Bernoulli_p=0.70_pmf.png"/> | <img src="./images/Bernoulli_p=0.70_cdf.png" />
 
 <hr>
 
