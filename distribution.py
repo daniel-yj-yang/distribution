@@ -35,7 +35,7 @@ plt.show()
 
 
 
-# Student's t-Distribution
+# Student's t-distribution
 mu = 0 # mean
 sigma = 1 # standard deviation
 df = 1
@@ -44,7 +44,7 @@ x = np.arange(-5,5,0.1)
 y = stats.t.pdf(x, df, mu, sigma)
 plt.figure(num=None, figsize=(8, 6), dpi=80, facecolor='w', edgecolor='k')
 plt.plot(x, y)
-plt.title('Student\' t-Distribution: df=%.0f, mu=%.1f, sigma=%.1f'%(df, mu, sigma))
+plt.title('Student\' t-distribution: df=%.0f, mu=%.1f, sigma=%.1f'%(df, mu, sigma))
 plt.xlabel('x')
 plt.ylabel('Probability density')
 plt.ylim(-0.05, 0.45)
@@ -53,7 +53,7 @@ plt.show()
 y = stats.t.cdf(x, df, mu, sigma)
 plt.figure(num=None, figsize=(8, 6), dpi=80, facecolor='w', edgecolor='k')
 plt.plot(x, y)
-plt.title('Student\' t-Distribution: df=%.0f, mu=%.1f, sigma=%.1f'%(df, mu, sigma))
+plt.title('Student\' t-distribution: df=%.0f, mu=%.1f, sigma=%.1f'%(df, mu, sigma))
 plt.xlabel('x')
 plt.ylabel('Cumulative distribution')
 plt.ylim(-0.1, 1.1)
