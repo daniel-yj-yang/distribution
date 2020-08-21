@@ -15,7 +15,9 @@ Probability Density Function | Cumulative Distribution Function
 
 2. <a href="https://en.wikipedia.org/wiki/Student%27s_t-distribution">Student's t-distribution</a>
 
-df | Probability Density Function | Cumulative Distribution Function
+Used in <a href="https://lvdmaaten.github.io/tsne/">t-SNE</a>
+
+<i>df</i> | Probability Density Function | Cumulative Distribution Function
 --- | --- | ---
 1 | <img src="./images/t_df=1_pdf.png"/> | <img src="./images/t_df=1_cdf.png" />
 
