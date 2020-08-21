@@ -18,7 +18,7 @@ Probability Density Function | Cumulative Distribution Function
 Used in <a href="https://lvdmaaten.github.io/tsne/">t-SNE</a>
 
 <i>df</i> | Probability Density Function | Cumulative Distribution Function
---- | --- | ---
+--- | --- | --- 
 1 | <img src="./images/t_df=1_pdf.png"/> | <img src="./images/t_df=1_cdf.png" />
 
 <hr>
@@ -48,8 +48,9 @@ p | Probability Mass Function | Cumulative Distribution Function
 
 A **discrete** probability distribution of the number of successes in a sequence of n independent experiments (e.g., n=10 coins tossed), each asking a yes–no question (e.g., coin toss being a head or tail).
 
-Example: the probability of heads over 10 coin tosses:<br>
-<img src="./images/binomial_distribution.png" width="50%" />
+p of head | n coin tosses | Probability Mass Function | Cumulative Distribution Function
+--- | --- | --- | ---
+0.5 | 10 | <img src="./images/binomial_p=0.5_n=10_pmf.png"/> | <img src="./images/binomial_p=0.5_n=10_cdf.png" />
 
 Here is a R-based <a href="https://danielyang.shinyapps.io/Binomial_distribution/">Shiny app</a> I created to play around the number of total coin tosses and visualize the changes in the distribution.
 
