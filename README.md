@@ -9,8 +9,15 @@ According to the <a href="./central_limit_theorem.md">**central limit theorem**<
 
 Probability Density Function | Cumulative Distribution Function
 --- | ---
-<img src="./images/normal_pdf.png" width="50%" /> | <img src="./images/normal_cdf.png" width="50%" />
+<img src="./images/normal_pdf.png"/> | <img src="./images/normal_cdf.png" />
 
+<hr>
+
+2. <a href="https://en.wikipedia.org/wiki/Student%27s_t-distribution">Student's t-distribution</a>
+
+df | Probability Density Function | Cumulative Distribution Function
+--- | --- | ---
+1 | <img src="./images/t_df=1_pdf.png"/> | <img src="./images/t_df=1_cdf.png" />
 
 <hr>
 
