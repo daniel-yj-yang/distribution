@@ -70,6 +70,19 @@ ax.set_ylabel('Y axis')
 ax.set_zlabel('Z axis')
 plt.show()
 
+#Make a 3D plot
+fig = plt.figure(num=None, figsize=(8, 6), dpi=300, facecolor='w', edgecolor='k')
+ax = fig.gca(projection='3d')
+ax.plot_wireframe(X, Y, rv.cdf(pos),rcount=25, ccount=25)
+#ax.plot_surface(X, Y, rv.pdf(pos),cmap='viridis',linewidth=0)
+ax.set_xlabel('X axis')
+ax.set_ylabel('Y axis')
+ax.set_zlabel('Z axis')
+plt.show()
+
+
+
+
 
 
 
