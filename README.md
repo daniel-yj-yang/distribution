@@ -37,7 +37,7 @@ A continuous probability distribution that has important roles in logistic regre
 Its shape looks like a bell shape, but it tends to have heavier tails than a normal distribution
 
 Example: 
-loc/mu | scale | Probability Density Function | Cumulative Density Function
+loc/mu | scale | Probability Density Function | Cumulative Distribution Function
 --- | --- | --- | ---
 10 | 1 | <img src="./images/logistic_loc=10_scale=1_pdf.png"> | <img src="./images/logistic_loc=10_scale=1_cdf.png">
 
@@ -48,7 +48,7 @@ Related: <a href="https://github.com/yj-danielyang/logistic-regression">My logis
 5. <a href="https://en.wikipedia.org/wiki/Chi-square_distribution">Chi-square distribution</a>
 
 Example:
-<i>df</i> | Probability Density Function | Cumulative Density Function
+<i>df</i> | Probability Density Function | Cumulative Distribution Function
 --- | --- | ---
 <i>df</i> = 1 | <img src="./images/chi2_df=1_pdf.png"> | <img src="./images/chi2_df=1_cdf.png">
 <i>df</i> = 3 | <img src="./images/chi2_df=3_pdf.png"> | <img src="./images/chi2_df=3_cdf.png">
