@@ -60,6 +60,8 @@ See also: <a href="https://en.wikipedia.org/wiki/Multinomial_distribution">Multi
 
 6. <a href="https://en.wikipedia.org/wiki/Geometric_distribution">Geometric distribution</a>
 
+It gives the probability that the first k − 1 trials are failures, while the kth trial is the first success.
+
 <hr>
 
 7. <a href="https://en.wikipedia.org/wiki/Logistic_distribution">Logistic distribution</a>
