@@ -13,7 +13,10 @@ Probability Density Function | Cumulative Distribution Function
 
 <hr>
 
-2. <a href="https://en.wikipedia.org/wiki/Student%27s_t-distribution">Student's t-distribution</a>
+2. 
+<hr>
+
+3. <a href="https://en.wikipedia.org/wiki/Student%27s_t-distribution">Student's t-distribution</a>
 
 Used in <a href="https://lvdmaaten.github.io/tsne/">t-SNE</a>
 
@@ -109,4 +112,3 @@ Gamma-Poisson distribution | <a href="https://towardsdatascience.com/calogica-co
 Dirichlet-Multinomial distribution | <a href="https://towardsdatascience.com/calogica-com-dice-polls-dirichlet-multinomials-eca987e6ec3f">reference</a>
 <a href="https://en.wikipedia.org/wiki/Negative_binomial_distribution">Negative binomial distribution | ---
 <a href="https://en.wikipedia.org/wiki/Box%E2%80%93Cox_distribution">Box-Cox distribution</a> (power-normal distribution) | glmnet()
-<a href="https://en.wikipedia.org/wiki/Multivariate_normal_distribution">Multivariate normal distribution</a> | glmnet()
