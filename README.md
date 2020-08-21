@@ -108,3 +108,4 @@ Gamma-Poisson distribution | <a href="https://towardsdatascience.com/calogica-co
 <a href="https://en.wikipedia.org/wiki/Dirichlet_distribution">Dirichlet distribution</a> | ---
 Dirichlet-Multinomial distribution | <a href="https://towardsdatascience.com/calogica-com-dice-polls-dirichlet-multinomials-eca987e6ec3f">reference</a>
 <a href="https://en.wikipedia.org/wiki/Negative_binomial_distribution">Negative binomial distribution | ---
+ <a href="https://en.wikipedia.org/wiki/Box%E2%80%93Cox_distribution">Box-Cox distribution</a> (power-normal distribution) | ---
