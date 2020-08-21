@@ -58,7 +58,11 @@ See also: <a href="https://en.wikipedia.org/wiki/Multinomial_distribution">Multi
 
 <hr>
 
-6. <a href="https://en.wikipedia.org/wiki/Logistic_distribution">Logistic distribution</a>
+6. <a href="https://en.wikipedia.org/wiki/Geometric_distribution">Geometric distribution</a>
+
+<hr>
+
+7. <a href="https://en.wikipedia.org/wiki/Logistic_distribution">Logistic distribution</a>
 
 A continuous probability distribution that has important roles in logistic regression and neural networks.
 Its shape looks like a bell shape, but it tends to have heavier tails than a normal distribution
@@ -72,7 +76,7 @@ Related: <a href="https://github.com/yj-danielyang/logistic-regression">My logis
 
 <hr>
 
-7. <a href="https://en.wikipedia.org/wiki/Chi-square_distribution">Chi-square distribution</a>
+8. <a href="https://en.wikipedia.org/wiki/Chi-square_distribution">Chi-square distribution</a>
 
 Example:
 <i>df</i> | Probability Density Function | Cumulative Distribution Function
@@ -82,11 +86,11 @@ Example:
 
 <hr>
 
-8. Here is a <a href="https://gallery.shinyapps.io/dist_calc/">Shiny App</a> I found that covers 5 different distriubtions: Normal, Binomial, t, F, Chi-squared. Here is <a href="https://leonawicz.github.io/blog/post/shiny-app-distributions-of-random-variables/">another one</a> that is pretty cool!
+9. Here is a <a href="https://gallery.shinyapps.io/dist_calc/">Shiny App</a> I found that covers 5 different distriubtions: Normal, Binomial, t, F, Chi-squared. Here is <a href="https://leonawicz.github.io/blog/post/shiny-app-distributions-of-random-variables/">another one</a> that is pretty cool!
 
 <hr>
 
-9. Other distributions: 
+10. Other distributions: 
 
 Distribution | Use
 --- | ---
@@ -96,3 +100,4 @@ Distribution | Use
 Gamma-Poisson distribution | <a href="https://towardsdatascience.com/calogica-com-dice-polls-dirichlet-multinomials-eca987e6ec3f">reference</a>
 <a href="https://en.wikipedia.org/wiki/Dirichlet_distribution">Dirichlet distribution</a> | ---
 Dirichlet-Multinomial distribution | <a href="https://towardsdatascience.com/calogica-com-dice-polls-dirichlet-multinomials-eca987e6ec3f">reference</a>
+<a href="https://en.wikipedia.org/wiki/Negative_binomial_distribution">Negative binomial distribution | ---
