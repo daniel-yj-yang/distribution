@@ -7,11 +7,14 @@ Covering the major kinds of distributions
 
 According to the <a href="./central_limit_theorem.md">**central limit theorem**</a>, with sample size n>=30 (that is, a sufficiently large sample size), regardless the distribution of the population, all the sample mean will follow a (1) <a href="https://en.wikipedia.org/wiki/Normal_distribution">normal distribution</a> (a continuous probability distribution), (2) the mean of all samples will be approximately equal to the mean of the population, and (3) the variance of all the sample means will be equal to the variance of the population **divided** by sample size.
 
-<img src="./images/normal_distribution.png" width="50%" />
+Probability Density Function | Cumulative Distribution Function
+--- | ---
+<img src="./images/normal_pdf.png" width="50%" /> | <img src="./images/normal_cdf.png" width="50%" />
+
 
 <hr>
 
-2. <a href="https://en.wikipedia.org/wiki/Poisson_distribution">Poisson distribution</a>
+3. <a href="https://en.wikipedia.org/wiki/Poisson_distribution">Poisson distribution</a>
 
 A **discrete** probability distribution that expresses the probability of a given number of **discrete** events (e.g., number of visitors on an Amazon website) occurring in a fixed interval of time (e.g., between 10:00-10:30pm on a Tuesday night) or space if these events occur with a known constant rate (e.g., on average, there are 1000 visitors between 10-10:30pm on a Tuesday night) and independently of the time since the last event.
 
@@ -20,7 +23,7 @@ Example: the probability of n visitiors between 10-10:30am on a Tuesday night:<b
 
 <hr>
 
-3. <a href="https://en.wikipedia.org/wiki/Binomial_distribution">Binomial distribution</a>
+4. <a href="https://en.wikipedia.org/wiki/Binomial_distribution">Binomial distribution</a>
 
 A **discrete** probability distribution of the number of successes in a sequence of n independent experiments (e.g., n=10 coins tossed), each asking a yes–no question (e.g., coin toss being a head or tail).
 
@@ -31,7 +34,7 @@ Here is a R-based <a href="https://danielyang.shinyapps.io/Binomial_distribution
 
 <hr>
 
-4. <a href="https://en.wikipedia.org/wiki/Logistic_distribution">Logistic distribution</a>
+5. <a href="https://en.wikipedia.org/wiki/Logistic_distribution">Logistic distribution</a>
 
 A continuous probability distribution that has important roles in logistic regression and neural networks.
 Its shape looks like a bell shape, but it tends to have heavier tails than a normal distribution
@@ -45,7 +48,7 @@ Related: <a href="https://github.com/yj-danielyang/logistic-regression">My logis
 
 <hr>
 
-5. <a href="https://en.wikipedia.org/wiki/Chi-square_distribution">Chi-square distribution</a>
+6. <a href="https://en.wikipedia.org/wiki/Chi-square_distribution">Chi-square distribution</a>
 
 Example:
 <i>df</i> | Probability Density Function | Cumulative Distribution Function
@@ -55,4 +58,4 @@ Example:
 
 <hr>
 
-6. Here is a <a href="https://gallery.shinyapps.io/dist_calc/">Shiny App</a> I found that covers 5 different distriubtions: Normal, Binomial, t, F, Chi-squared. Here is <a href="https://leonawicz.github.io/blog/post/shiny-app-distributions-of-random-variables/">another one</a> that is pretty cool!
+7. Here is a <a href="https://gallery.shinyapps.io/dist_calc/">Shiny App</a> I found that covers 5 different distriubtions: Normal, Binomial, t, F, Chi-squared. Here is <a href="https://leonawicz.github.io/blog/post/shiny-app-distributions-of-random-variables/">another one</a> that is pretty cool!
