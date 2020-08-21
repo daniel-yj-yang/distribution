@@ -13,7 +13,12 @@ Probability Density Function | Cumulative Distribution Function
 
 <hr>
 
-2. 
+2. <a href="https://en.wikipedia.org/wiki/Multivariate_normal_distribution">Multivariate normal distribution</a>
+
+Distribution | Probability Density Function | Cumulative Distribution Function
+--- | --- | ---
+Bivariate | <img src="./images/bivariate_normal_pdf.png"/> | <img src="./images/bivariate_normal_cdf.png" />
+
 <hr>
 
 3. <a href="https://en.wikipedia.org/wiki/Student%27s_t-distribution">Student's t-distribution</a>
