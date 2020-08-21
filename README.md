@@ -34,6 +34,8 @@ Example: the probability of n visitiors between 10-10:30am on a Tuesday night:<b
 
 4. <a href="https://en.wikipedia.org/wiki/Bernoulli_distribution">Bernoulli distribution</a>
 
+<img src="./images/Bernoulli_definition.png">
+
 p | Probability Mass Function | Cumulative Distribution Function
 --- | --- | ---
 0.7 | <img src="./images/Bernoulli_p=0.7_pmf.png"/> | <img src="./images/Bernoulli_p=0.7_cdf.png" />
