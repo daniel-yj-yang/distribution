@@ -63,7 +63,7 @@ See also: <a href="https://en.wikipedia.org/wiki/Multinomial_distribution">Multi
 It gives the probability that the first k − 1 trials are failures, while the kth trial is the first success.
 
 p of head | Probability Mass Function | Cumulative Distribution Function
---- | --- | --- | ---
+--- | --- | ---
 0.5 | <img src="./images/geometric_p=0.5_pmf.png"/> | <img src="./images/geometric_p=0.5_cdf.png" />
 
 
