@@ -48,7 +48,6 @@ p | Probability Mass Function | Cumulative Distribution Function
 
 A **discrete** probability distribution of the number of successes in a sequence of n independent experiments (e.g., n=10 coins tossed), each asking a yes–no question (e.g., coin toss being a head or tail).
 
-<img src="./images/binomial_distribution.png" width="50%" />
 p of head | n coin tosses | Probability Mass Function | Cumulative Distribution Function
 --- | --- | --- | ---
 0.5 | 10 | <img src="./images/binomial_p=0.5_n=10_pmf.png"/> | <img src="./images/binomial_p=0.5_n=10_cdf.png" />
