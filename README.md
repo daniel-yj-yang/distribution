@@ -91,5 +91,7 @@ Example:
 Distribution | Use
 --- | ---
 <a href="https://en.wikipedia.org/wiki/Beta_distribution">Beta distribution</a> | ---
+<a href="https://en.wikipedia.org/wiki/Beta-binomial_distribution">Beta-binomial distribution</a> | <a href="https://towardsdatascience.com/calogica-com-dice-polls-dirichlet-multinomials-eca987e6ec3f">reference</a>
 <a href="https://en.wikipedia.org/wiki/Gamma_distribution">Gamma distribution</a> | ---
+Gamma-Poisson distribution | ---
 <a href="https://en.wikipedia.org/wiki/Dirichlet_distribution">Dirichlet distribution</a> | ---
