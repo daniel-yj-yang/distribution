@@ -83,3 +83,13 @@ Example:
 <hr>
 
 8. Here is a <a href="https://gallery.shinyapps.io/dist_calc/">Shiny App</a> I found that covers 5 different distriubtions: Normal, Binomial, t, F, Chi-squared. Here is <a href="https://leonawicz.github.io/blog/post/shiny-app-distributions-of-random-variables/">another one</a> that is pretty cool!
+
+<hr>
+
+9. Other distribution: 
+
+Distribution
+---
+<a href="https://en.wikipedia.org/wiki/Beta_distribution">Beta distribution</a>
+<a href="https://en.wikipedia.org/wiki/Gamma_distribution">Gamma distribution</a>
+<a href="https://en.wikipedia.org/wiki/Dirichlet_distribution">Dirichlet distribution</a>
