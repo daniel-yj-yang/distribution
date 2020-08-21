@@ -32,7 +32,17 @@ Example: the probability of n visitiors between 10-10:30am on a Tuesday night:<b
 
 <hr>
 
-4. <a href="https://en.wikipedia.org/wiki/Binomial_distribution">Binomial distribution</a>
+4. <a href="https://en.wikipedia.org/wiki/Bernoulli_distribution">Bernoulli distribution</a>
+
+<img src="./images/Bernoulli_definition.png">
+
+p | Probability Mass Function | Cumulative Distribution Function
+--- | --- | ---
+0.7 | <img src="./images/Bernoulli_p=0.7_pmf.png"/> | <img src="./images/Bernoulli_p=0.7_cdf.png" />
+
+<hr>
+
+5. <a href="https://en.wikipedia.org/wiki/Binomial_distribution">Binomial distribution</a>
 
 A **discrete** probability distribution of the number of successes in a sequence of n independent experiments (e.g., n=10 coins tossed), each asking a yes–no question (e.g., coin toss being a head or tail).
 
@@ -43,7 +53,7 @@ Here is a R-based <a href="https://danielyang.shinyapps.io/Binomial_distribution
 
 <hr>
 
-5. <a href="https://en.wikipedia.org/wiki/Logistic_distribution">Logistic distribution</a>
+6. <a href="https://en.wikipedia.org/wiki/Logistic_distribution">Logistic distribution</a>
 
 A continuous probability distribution that has important roles in logistic regression and neural networks.
 Its shape looks like a bell shape, but it tends to have heavier tails than a normal distribution
@@ -57,7 +67,7 @@ Related: <a href="https://github.com/yj-danielyang/logistic-regression">My logis
 
 <hr>
 
-6. <a href="https://en.wikipedia.org/wiki/Chi-square_distribution">Chi-square distribution</a>
+7. <a href="https://en.wikipedia.org/wiki/Chi-square_distribution">Chi-square distribution</a>
 
 Example:
 <i>df</i> | Probability Density Function | Cumulative Distribution Function
@@ -67,4 +77,4 @@ Example:
 
 <hr>
 
-7. Here is a <a href="https://gallery.shinyapps.io/dist_calc/">Shiny App</a> I found that covers 5 different distriubtions: Normal, Binomial, t, F, Chi-squared. Here is <a href="https://leonawicz.github.io/blog/post/shiny-app-distributions-of-random-variables/">another one</a> that is pretty cool!
+8. Here is a <a href="https://gallery.shinyapps.io/dist_calc/">Shiny App</a> I found that covers 5 different distriubtions: Normal, Binomial, t, F, Chi-squared. Here is <a href="https://leonawicz.github.io/blog/post/shiny-app-distributions-of-random-variables/">another one</a> that is pretty cool!
