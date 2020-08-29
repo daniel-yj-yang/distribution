@@ -62,7 +62,7 @@ p of head | n coin tosses | Probability Mass Function | Cumulative Distribution 
 
 Here is a R-based <a href="https://danielyang.shinyapps.io/Binomial_distribution/">Shiny app</a> I created to play around the number of total coin tosses and visualize the changes in the distribution.
 
-See also: <a href="https://en.wikipedia.org/wiki/Multinomial_distribution">Multinomial distribution</a> (e.g., it models the probability of counts for each side of a k≥2-sided die rolled n times)
+See also: <a href="https://en.wikipedia.org/wiki/Multinomial_distribution">Multinomial distribution</a> (e.g., it models the probability of counts for each side of a k≥2-sided dice rolled n times)
 
 <hr>
 
