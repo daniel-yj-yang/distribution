@@ -74,8 +74,15 @@ Then ...
 
 If we roll the dice n times | Number of occurrences for each side | Probability Mass Function
 --- | --- | ---
-n = 2 | [1, 0, 0, 0, 1, 0] | 0.05555556
-n = 2 | [0, 2, 0, 0, 0, 0] | 0.02777778
+n = 2 | [1, 1, 0, 0, 0, 0] | 0.05555556
+n = 2 | [2, 0, 0, 0, 0, 0] | 0.02777778
+n = 3 | [1, 1, 1, 0, 0, 0] | 0.02777778
+n = 3 | [3, 0, 0, 0, 0, 0] | 0.00462963
+
+Real-World Example of the Multinomial Distribution
+In the context of investing, a portfolio manager or financial analyst might use the multinomial distribution to estimate the probability of (a) a small-cap index outperforming a large-cap index 70% of the time, (b) the large-cap index outperforming the small-cap index 25% of the time, and (c) the indexes having the same (or approximate) return 5% of the time.
+
+In this scenario, the trial might take place over a full year of trading days, using data from the market to gauge the results. If the probability of this set of outcomes is sufficiently high, the investor might be tempted to make an overweight investment in the small-cap index.
 
 <hr>
 
