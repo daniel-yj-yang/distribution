@@ -70,7 +70,7 @@ Here is a R-based <a href="https://danielyang.shinyapps.io/Binomial_distribution
 
 The probability of counts for each side of a k≥2-sided dice rolled n times (if k=2, it's a binomial distribution)
 
-Let's say we have a 6-sided (k=6) fair dice, thus each side probability is defined by p = [1/6, 1/6, 1/6, 1/6, 1/6, 1/6]
+Let's say we have a 6-sided (k=6) fair dice, and the probability of each side is defined by p = [1/6, 1/6, 1/6, 1/6, 1/6, 1/6]
 
 Then ...
 
@@ -81,10 +81,18 @@ n = 2 | [2, 0, 0, 0, 0, 0] | 0.02777778
 n = 3 | [1, 1, 1, 0, 0, 0] | 0.02777778
 n = 3 | [3, 0, 0, 0, 0, 0] | 0.00462963
 
-#### <a href="https://www.investopedia.com/terms/m/multinomial-distribution.asp">Investment Example</a>
-In the context of investing, a portfolio manager or financial analyst might use the multinomial distribution to estimate the probability of (a) a small-cap index outperforming a large-cap index 70% of the time, (b) the large-cap index outperforming the small-cap index 25% of the time, and (c) the indexes having the same (or approximate) return 5% of the time.
+<hr>
 
-In this scenario, the trial might take place over a full year of trading days, using data from the market to gauge the results. If the probability of this set of outcomes is sufficiently high, the investor might be tempted to make an overweight investment in the small-cap index.
+#### <a href="https://www.investopedia.com/terms/m/multinomial-distribution.asp">Investment Example</a>
+
+Let's say we have a 3-sided (k=3) dice representing trading outcomes, and the probability of each side is defined by p = [1/3, 1/3, 1/3]
+- Side#1 = A small-cap index outperforms a large-cap index
+- Side#2 = A large-cap index outperforms a small-cap index
+- Side#3 = The two indexes have the same (or approx.) returns
+
+If we trading n days | A set of trading outcomes | Probability Mass Function | Decision
+--- | --- | --- | ---
+n = 100 days | [70, 25, 5] | --- | Outweight investment in the small-cap index
 
 <hr>
 
