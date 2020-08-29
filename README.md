@@ -62,11 +62,24 @@ p of head | n coin tosses | Probability Mass Function | Cumulative Distribution 
 
 Here is a R-based <a href="https://danielyang.shinyapps.io/Binomial_distribution/">Shiny app</a> I created to play around the number of total coin tosses and visualize the changes in the distribution.
 
-See also: <a href="https://en.wikipedia.org/wiki/Multinomial_distribution">Multinomial distribution</a> (e.g., it models the probability of counts for each side of a k≥2-sided dice rolled n times)
+<hr>
+
+7. <a href="https://en.wikipedia.org/wiki/Multinomial_distribution">Multinomial distribution</a>
+
+The probability of counts for each side of a k≥2-sided dice rolled n times (if k=2, it's a binomial distribution)
+
+Let's say we have a 6-sided (k=6) fair dice, thus each side probability is defined by p = [1/6, 1/6, 1/6, 1/6, 1/6, 1/6]
+
+Then ...
+
+If we roll the dice n times | Number of occurrences for each side | Probability Mass Function
+--- | --- | ---
+n = 2 | [1, 0, 0, 0, 1, 0] | 0.05555556
+n = 2 | [0, 2, 0, 0, 0, 0] | 0.02777778
 
 <hr>
 
-7. <a href="https://en.wikipedia.org/wiki/Geometric_distribution">Geometric distribution</a>
+8. <a href="https://en.wikipedia.org/wiki/Geometric_distribution">Geometric distribution</a>
 
 It gives the probability that the first k − 1 trials are failures, while the kth trial is the first success.
 
@@ -74,10 +87,9 @@ p of head | Probability Mass Function | Cumulative Distribution Function
 --- | --- | ---
 0.5 | <img src="./images/geometric_p=0.5_pmf.png"/> | <img src="./images/geometric_p=0.5_cdf.png" />
 
-
 <hr>
 
-8. <a href="https://en.wikipedia.org/wiki/Logistic_distribution">Logistic distribution</a>
+9. <a href="https://en.wikipedia.org/wiki/Logistic_distribution">Logistic distribution</a>
 
 A continuous probability distribution that has important roles in logistic regression and neural networks.
 Its shape looks like a bell shape, but it tends to have heavier tails than a normal distribution
@@ -91,7 +103,7 @@ Related: <a href="https://github.com/yj-danielyang/logistic-regression">My logis
 
 <hr>
 
-9. <a href="https://en.wikipedia.org/wiki/Chi-square_distribution">Chi-square distribution</a>
+10. <a href="https://en.wikipedia.org/wiki/Chi-square_distribution">Chi-square distribution</a>
 
 Example:
 <i>df</i> | Probability Density Function | Cumulative Distribution Function
@@ -101,7 +113,7 @@ Example:
 
 <hr>
 
-10. Other distributions: 
+11. Other distributions: 
 
 Distribution | Use
 --- | ---
