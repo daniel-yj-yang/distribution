@@ -3,7 +3,7 @@ Covering the major kinds of distributions (visualization via a <a href="./distri
 
 <hr>
 
-1. <a href="https://en.wikipedia.org/wiki/Normal_distribution">Normal (Gaussian) distribution</a>
+## 1. <a href="https://en.wikipedia.org/wiki/Normal_distribution">Normal (Gaussian) distribution</a>
 
 According to the <a href="./central_limit_theorem.md">**central limit theorem**</a>, with sample size n ≥ 30 (that is, a sufficiently large sample size), regardless the distribution of the population, all the sample mean will follow a (1) <a href="https://en.wikipedia.org/wiki/Normal_distribution">normal distribution</a> (a continuous probability distribution), (2) the mean of all samples will be approximately equal to the mean of the population, and (3) the variance of all the sample means will be equal to the variance of the population **divided** by sample size.
 
@@ -13,7 +13,7 @@ Probability Density Function | Cumulative Distribution Function
 
 <hr>
 
-2. <a href="https://en.wikipedia.org/wiki/Multivariate_normal_distribution">Multivariate normal distribution</a>
+## 2. <a href="https://en.wikipedia.org/wiki/Multivariate_normal_distribution">Multivariate normal distribution</a>
 
 Example | Probability Density Function | Cumulative Distribution Function
 --- | --- | ---
@@ -21,7 +21,7 @@ Bivariate<br/>(<a href="./Grapher/bivariate_normal_grapher_example.gcx">Grapher 
 
 <hr>
 
-3. <a href="https://en.wikipedia.org/wiki/Student%27s_t-distribution">Student's t-distribution</a>
+## 3. <a href="https://en.wikipedia.org/wiki/Student%27s_t-distribution">Student's t-distribution</a>
 
 Used in <a href="https://lvdmaaten.github.io/tsne/">t-SNE</a>
 
@@ -31,7 +31,7 @@ Used in <a href="https://lvdmaaten.github.io/tsne/">t-SNE</a>
 
 <hr>
 
-4. <a href="https://en.wikipedia.org/wiki/Poisson_distribution">Poisson distribution</a>
+## 4. <a href="https://en.wikipedia.org/wiki/Poisson_distribution">Poisson distribution</a>
 
 A **discrete** probability distribution that expresses the probability of a given number of **discrete** events (e.g., number of visitors on an Amazon website) occurring in a fixed interval of time (e.g., between 10:00-10:30pm on a Tuesday night) or space if these events occur with a known constant rate (e.g., on average, there are 1000 visitors between 10-10:30pm on a Tuesday night) and independently of the time since the last event.
 
@@ -40,7 +40,7 @@ Example: the probability of n visitiors between 10-10:30am on a Tuesday night:<b
 
 <hr>
 
-5. <a href="https://en.wikipedia.org/wiki/Bernoulli_distribution">Bernoulli distribution</a>
+## 5. <a href="https://en.wikipedia.org/wiki/Bernoulli_distribution">Bernoulli distribution</a>
 
 Used in <a href="https://en.wikipedia.org/wiki/Naive_Bayes_classifier">Naive Bayesian classifier</a>
 
@@ -52,7 +52,7 @@ p | Probability Mass Function | Cumulative Distribution Function
 
 <hr>
 
-6. <a href="https://en.wikipedia.org/wiki/Binomial_distribution">Binomial distribution</a>
+## 6. <a href="https://en.wikipedia.org/wiki/Binomial_distribution">Binomial distribution</a>
 
 A **discrete** probability distribution of the number of successes in a sequence of n independent experiments (e.g., n=10 coins tossed), each asking a yes–no question (e.g., coin toss being a head or tail).
 
@@ -64,7 +64,9 @@ Here is a R-based <a href="https://danielyang.shinyapps.io/Binomial_distribution
 
 <hr>
 
-7. <a href="https://en.wikipedia.org/wiki/Multinomial_distribution">Multinomial distribution</a>
+## 7. <a href="https://en.wikipedia.org/wiki/Multinomial_distribution">Multinomial distribution</a>
+
+#### Concept
 
 The probability of counts for each side of a k≥2-sided dice rolled n times (if k=2, it's a binomial distribution)
 
@@ -79,14 +81,14 @@ n = 2 | [2, 0, 0, 0, 0, 0] | 0.02777778
 n = 3 | [1, 1, 1, 0, 0, 0] | 0.02777778
 n = 3 | [3, 0, 0, 0, 0, 0] | 0.00462963
 
-Real-World Example of the Multinomial Distribution
+#### <a href="https://www.investopedia.com/terms/m/multinomial-distribution.asp">Investment Example</a>
 In the context of investing, a portfolio manager or financial analyst might use the multinomial distribution to estimate the probability of (a) a small-cap index outperforming a large-cap index 70% of the time, (b) the large-cap index outperforming the small-cap index 25% of the time, and (c) the indexes having the same (or approximate) return 5% of the time.
 
 In this scenario, the trial might take place over a full year of trading days, using data from the market to gauge the results. If the probability of this set of outcomes is sufficiently high, the investor might be tempted to make an overweight investment in the small-cap index.
 
 <hr>
 
-8. <a href="https://en.wikipedia.org/wiki/Geometric_distribution">Geometric distribution</a>
+## 8. <a href="https://en.wikipedia.org/wiki/Geometric_distribution">Geometric distribution</a>
 
 It gives the probability that the first k − 1 trials are failures, while the kth trial is the first success.
 
@@ -96,7 +98,7 @@ p of head | Probability Mass Function | Cumulative Distribution Function
 
 <hr>
 
-9. <a href="https://en.wikipedia.org/wiki/Logistic_distribution">Logistic distribution</a>
+## 9. <a href="https://en.wikipedia.org/wiki/Logistic_distribution">Logistic distribution</a>
 
 A continuous probability distribution that has important roles in logistic regression and neural networks.
 Its shape looks like a bell shape, but it tends to have heavier tails than a normal distribution
@@ -110,7 +112,7 @@ Related: <a href="https://github.com/yj-danielyang/logistic-regression">My logis
 
 <hr>
 
-10. <a href="https://en.wikipedia.org/wiki/Chi-square_distribution">Chi-square distribution</a>
+## 10. <a href="https://en.wikipedia.org/wiki/Chi-square_distribution">Chi-square distribution</a>
 
 Example:
 <i>df</i> | Probability Density Function | Cumulative Distribution Function
@@ -120,7 +122,7 @@ Example:
 
 <hr>
 
-11. Other distributions: 
+## 11. Other distributions: 
 
 Distribution | Use
 --- | ---
