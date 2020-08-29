@@ -80,6 +80,7 @@ n = 2 | [1, 1, 0, 0, 0, 0] | 0.05555556
 n = 2 | [2, 0, 0, 0, 0, 0] | 0.02777778
 n = 3 | [1, 1, 1, 0, 0, 0] | 0.02777778
 n = 3 | [3, 0, 0, 0, 0, 0] | 0.00462963
+n = | [≥1, ≥1, ≥1, ≥1, ≥1, ≥1] | 
 
 <hr>
 
@@ -90,7 +91,7 @@ Let's say we have a 3-sided (k=3) dice representing a day's trading outcomes, an
 - Side#2 = A large-cap index outperforms a small-cap index
 - Side#3 = The two indexes have the same (or approx.) returns
 
-If we trade n days | A set of trading outcomes | Probability Mass Function | Decision
+If we trade n days | Sets of trading outcomes | Probability Mass Function | Decision
 --- | --- | --- | ---
 n = 100 days | [≥70, ≤25, 5] | --- | Outweight investment in the small-cap index
 
