@@ -85,12 +85,12 @@ n = 3 | [3, 0, 0, 0, 0, 0] | 0.00462963
 
 #### <a href="https://www.investopedia.com/terms/m/multinomial-distribution.asp">Investment Example</a>
 
-Let's say we have a 3-sided (k=3) dice representing trading outcomes, and the probability of each side is defined by p = [1/3, 1/3, 1/3]
+Let's say we have a 3-sided (k=3) dice representing a day's trading outcomes, and the probability of each side is defined by p = [1/3, 1/3, 1/3]
 - Side#1 = A small-cap index outperforms a large-cap index
 - Side#2 = A large-cap index outperforms a small-cap index
 - Side#3 = The two indexes have the same (or approx.) returns
 
-If we trading n days | A set of trading outcomes | Probability Mass Function | Decision
+If we trade n days | A set of trading outcomes | Probability Mass Function | Decision
 --- | --- | --- | ---
 n = 100 days | [70, 25, 5] | --- | Outweight investment in the small-cap index
 
