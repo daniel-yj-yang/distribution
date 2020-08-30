@@ -93,7 +93,7 @@ Let's say we have a 3-sided (k=3) dice representing a day's trading outcomes
 - Side#2 = A large-cap index outperforms a small-cap index
 - Side#3 = The two indexes have the same (or approx.) returns
 
-The probability of each side is defined by p = [0.75, 0.20, 0.05]
+Let's say the prior probability of each side is known as p = [0.75, 0.20, 0.05]
 
 If we trade n days | Sets of trading outcomes | Probability Mass Function | Decision
 --- | --- | --- | ---
