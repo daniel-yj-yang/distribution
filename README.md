@@ -11,6 +11,8 @@ Probability Density Function | Cumulative Distribution Function
 --- | ---
 <img src="./images/normal_pdf.png"/> | <img src="./images/normal_cdf.png" />
 
+Use Case: Simple Linear Regression
+
 <hr>
 
 ## 2. <a href="https://en.wikipedia.org/wiki/Multivariate_normal_distribution">Multivariate normal distribution</a>
@@ -18,6 +20,8 @@ Probability Density Function | Cumulative Distribution Function
 Example | Probability Density Function | Cumulative Distribution Function
 --- | --- | ---
 Bivariate<br/>(<a href="./Grapher/bivariate_normal_grapher_example.gcx">Grapher example</a>) | <img src="./images/bivariate_normal_pdf.png"/> | <img src="./images/bivariate_normal_cdf.png" />
+
+Use Case: Multiple Linear Regression
 
 <hr>
 
