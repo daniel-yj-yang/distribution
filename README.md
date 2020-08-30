@@ -138,7 +138,7 @@ Example:
 
 ## 11. Other distributions: 
 
-Distribution | Use
+Distribution | Use Case
 --- | ---
 <a href="https://en.wikipedia.org/wiki/Beta_distribution">Beta distribution</a> | ---
 <a href="https://en.wikipedia.org/wiki/Beta-binomial_distribution">Beta-binomial distribution</a> | <a href="https://towardsdatascience.com/calogica-com-dice-polls-dirichlet-multinomials-eca987e6ec3f">reference</a>
