@@ -11,6 +11,8 @@ Probability Density Function | Cumulative Distribution Function
 --- | ---
 <img src="./images/normal_pdf.png"/> | <img src="./images/normal_cdf.png" />
 
+Use Case: Simple Linear Regression
+
 <hr>
 
 ## 2. <a href="https://en.wikipedia.org/wiki/Multivariate_normal_distribution">Multivariate normal distribution</a>
@@ -19,15 +21,17 @@ Example | Probability Density Function | Cumulative Distribution Function
 --- | --- | ---
 Bivariate<br/>(<a href="./Grapher/bivariate_normal_grapher_example.gcx">Grapher example</a>) | <img src="./images/bivariate_normal_pdf.png"/> | <img src="./images/bivariate_normal_cdf.png" />
 
+Use Case: Multiple Linear Regression
+
 <hr>
 
 ## 3. <a href="https://en.wikipedia.org/wiki/Student%27s_t-distribution">Student's t-distribution</a>
 
-Used in <a href="https://lvdmaaten.github.io/tsne/">t-SNE</a>
-
 <i>df</i> | Probability Density Function | Cumulative Distribution Function
 --- | --- | --- 
 1 | <img src="./images/t_df=1_pdf.png"/> | <img src="./images/t_df=1_cdf.png" />
+
+Use Case: <a href="https://lvdmaaten.github.io/tsne/">t-SNE</a>
 
 <hr>
 
@@ -42,13 +46,13 @@ Example: the probability of n visitiors between 10-10:30am on a Tuesday night:<b
 
 ## 5. <a href="https://en.wikipedia.org/wiki/Bernoulli_distribution">Bernoulli distribution</a>
 
-Used in <a href="https://en.wikipedia.org/wiki/Naive_Bayes_classifier">Naive Bayesian classifier</a>
-
 <img src="./images/Bernoulli_definition.png" width="250px">
 
 p | Probability Mass Function | Cumulative Distribution Function
 --- | --- | ---
 0.7 | <img src="./images/Bernoulli_p=0.70_pmf.png"/> | <img src="./images/Bernoulli_p=0.70_cdf.png" />
+
+Use Case: <a href="https://en.wikipedia.org/wiki/Naive_Bayes_classifier">Naive Bayesian classifier</a>
 
 <hr>
 
@@ -72,7 +76,7 @@ Here is a R-based <a href="https://danielyang.shinyapps.io/Binomial_distribution
 
 The probability of counts for each side of a k≥3-sided dice rolled n times (if k=2, it's a binomial distribution)
 
-Let's say we have a 6-sided (k=6) fair dice, and the probability of each side is defined by p = [1/6, 1/6, 1/6, 1/6, 1/6, 1/6]
+Let's say we have a 6-sided (k=6) fair dice, and the prior probability of each side is defined by p = [1/6, 1/6, 1/6, 1/6, 1/6, 1/6]
 
 Then ...
 
@@ -83,6 +87,9 @@ n = 2 | [2, 0, 0, 0, 0, 0] | 0.0278
 n = 3 | [1, 1, 1, 0, 0, 0] | 0.0278
 n = 3 | [3, 0, 0, 0, 0, 0] | 0.0046
 n = 10 | [≥1, ≥1, ≥1, ≥1, ≥1, ≥1] | 0.2718
+n = 20 | [≥1, ≥1, ≥1, ≥1, ≥1, ≥1] | 0.8474
+
+Use case: <a href="https://en.wikipedia.org/wiki/Naive_Bayes_classifier">Naive Bayesian classifier</a>
 
 <hr>
 
@@ -137,7 +144,7 @@ Example:
 
 ## 11. Other distributions: 
 
-Distribution | Use
+Distribution | Use Case
 --- | ---
 <a href="https://en.wikipedia.org/wiki/Beta_distribution">Beta distribution</a> | ---
 <a href="https://en.wikipedia.org/wiki/Beta-binomial_distribution">Beta-binomial distribution</a> | <a href="https://towardsdatascience.com/calogica-com-dice-polls-dirichlet-multinomials-eca987e6ec3f">reference</a>
