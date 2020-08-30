@@ -72,7 +72,7 @@ Here is a R-based <a href="https://danielyang.shinyapps.io/Binomial_distribution
 
 The probability of counts for each side of a k≥3-sided dice rolled n times (if k=2, it's a binomial distribution)
 
-Let's say we have a 6-sided (k=6) fair dice, and the probability of each side is defined by p = [1/6, 1/6, 1/6, 1/6, 1/6, 1/6]
+Let's say we have a 6-sided (k=6) fair dice, and the prior probability of each side is defined by p = [1/6, 1/6, 1/6, 1/6, 1/6, 1/6]
 
 Then ...
 
