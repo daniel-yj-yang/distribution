@@ -180,7 +180,7 @@ plt.show()
 
 
 # Multinomial Distribution
-n = 10 # 3 # 2 # number of trials (k-sided dice rolled)
+n = 20 # 10 # 3 # 2 # number of trials (k-sided dice rolled)
 p = [1/6, 1/6, 1/6, 1/6, 1/6, 1/6] # probability of the each side of a 6-sided dice, should sum to 1
 
 rv = stats.multinomial(n, p) # A multinomial random variable
