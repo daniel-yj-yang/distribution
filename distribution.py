@@ -43,7 +43,7 @@ plt.show()
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.stats import multivariate_normal
-from mpl_toolkits.mplot3d import Axes3D
+#from mpl_toolkits.mplot3d import Axes3D
 
 #Parameters to set
 mu_x = 0
@@ -170,6 +170,64 @@ plt.bar(k,y)
 plt.xlabel('k')
 plt.plot(k, y, 'o-r')
 plt.show()
+
+
+
+
+
+
+
+
+
+# Multinomial Distribution
+n = 10 # 3 # 2 # number of trials (k-sided dice rolled)
+p = [1/6, 1/6, 1/6, 1/6, 1/6, 1/6] # probability of the each side of a 6-sided dice, should sum to 1
+
+rv = stats.multinomial(n, p) # A multinomial random variable
+
+x_samples = rv.rvs(size = 1000000, random_state=12345) # draw random samples.
+x_samples = np.unique(x_samples, axis = 0)
+# each sample consists of number of outcomes for event-1, event-2, ..., event-k, should num to n
+# for example, if n = 9, then x = [2, 1, 2, 1, 2, 1] means the each of the odd-number sides (1,3,5) appearing 2 times and each of the even-number sides (2,4,6) appearing 1 time
+
+x_samples.shape # the # of rows is the distinct possible outcomes of rolling the dice n times
+
+y = rv.pmf(x = x_samples)
+
+# Number of occurrences for each side
+# [≥1, ≥1, ≥1, ≥1, ≥1, ≥1]
+x_samples_subset = x_samples[np.where(
+    (x_samples[:, 0] >= 1) &
+    (x_samples[:, 1] >= 1) &
+    (x_samples[:, 2] >= 1) &
+    (x_samples[:, 3] >= 1) &
+    (x_samples[:, 4] >= 1) &
+    (x_samples[:, 5] >= 1))]
+
+x_samples_subset.shape
+
+y = rv.pmf(x = x_samples_subset)
+sum(y)
+
+# Investment example
+n = 100
+p = [75/100, 20/100, 5/100]
+rv = stats.multinomial(n, p) # A multinomial random variable
+x_samples = rv.rvs(size = 10000000, random_state=12345) # draw random samples.
+x_samples = np.unique(x_samples, axis = 0)
+x_samples.shape # the # of rows is the distinct possible outcomes of rolling the dice n times
+# Number of occurrences for each side
+# [≥1, ≥1, ≥1, ≥1, ≥1, ≥1]
+x_samples_subset = x_samples[np.where(
+    (x_samples[:, 0] >= 70) &
+    (x_samples[:, 1] <= 25) &
+    (x_samples[:, 2] <= 5))]
+
+x_samples_subset.shape
+
+y = rv.pmf(x = x_samples_subset)
+sum(y)
+
 
 
 
