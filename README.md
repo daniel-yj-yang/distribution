@@ -76,24 +76,24 @@ Then ...
 
 If we roll the dice n times | Number of occurrences for each side | Probability Mass Function
 --- | --- | ---
-n = 2 | [1, 1, 0, 0, 0, 0] | 0.05555556
-n = 2 | [2, 0, 0, 0, 0, 0] | 0.02777778
-n = 3 | [1, 1, 1, 0, 0, 0] | 0.02777778
-n = 3 | [3, 0, 0, 0, 0, 0] | 0.00462963
-n = 10 | [≥1, ≥1, ≥1, ≥1, ≥1, ≥1] | 0.27181213
+n = 2 | [1, 1, 0, 0, 0, 0] | 0.0556
+n = 2 | [2, 0, 0, 0, 0, 0] | 0.0278
+n = 3 | [1, 1, 1, 0, 0, 0] | 0.0278
+n = 3 | [3, 0, 0, 0, 0, 0] | 0.0046
+n = 10 | [≥1, ≥1, ≥1, ≥1, ≥1, ≥1] | 0.2718
 
 <hr>
 
 #### <a href="https://www.investopedia.com/terms/m/multinomial-distribution.asp">Investment Example</a>
 
-Let's say we have a 3-sided (k=3) dice representing a day's trading outcomes, and the probability of each side is defined by p = [1/3, 1/3, 1/3]
+Let's say we have a 3-sided (k=3) dice representing a day's trading outcomes, and the probability of each side is defined by p = [0.75, 0.20, 0.05]
 - Side#1 = A small-cap index outperforms a large-cap index
 - Side#2 = A large-cap index outperforms a small-cap index
 - Side#3 = The two indexes have the same (or approx.) returns
 
 If we trade n days | Sets of trading outcomes | Probability Mass Function | Decision
 --- | --- | --- | ---
-n = 100 days | [≥70, ≤25, 5] | --- | Outweight investment in the small-cap index
+n = 100 days | [≥70 days, ≤25 days, ≤5 days] | 0.5547 | Outweight investment in the small-cap index
 
 <hr>
 
