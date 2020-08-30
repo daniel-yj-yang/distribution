@@ -65,10 +65,12 @@ Here is a R-based <a href="https://danielyang.shinyapps.io/Binomial_distribution
 <hr>
 
 ## 7. <a href="https://en.wikipedia.org/wiki/Multinomial_distribution">Multinomial distribution</a>
+- nomial = a name or term
+- a 'nomial' is an expression with either 1, 2 , 3 or more numbers and/or variables (terms) within it.
 
 #### Concept
 
-The probability of counts for each side of a k≥2-sided dice rolled n times (if k=2, it's a binomial distribution)
+The probability of counts for each side of a k≥3-sided dice rolled n times (if k=2, it's a binomial distribution)
 
 Let's say we have a 6-sided (k=6) fair dice, and the probability of each side is defined by p = [1/6, 1/6, 1/6, 1/6, 1/6, 1/6]
 
