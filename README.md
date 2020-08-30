@@ -85,6 +85,8 @@ n = 3 | [3, 0, 0, 0, 0, 0] | 0.0046
 n = 10 | [≥1, ≥1, ≥1, ≥1, ≥1, ≥1] | 0.2718
 n = 20 | [≥1, ≥1, ≥1, ≥1, ≥1, ≥1] | 0.8474
 
+Use case: Naive Bayes
+
 <hr>
 
 #### <a href="https://www.investopedia.com/terms/m/multinomial-distribution.asp">Investment Example</a>
