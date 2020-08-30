@@ -89,7 +89,7 @@ n = 3 | [3, 0, 0, 0, 0, 0] | 0.0046
 n = 10 | [≥1, ≥1, ≥1, ≥1, ≥1, ≥1] | 0.2718
 n = 20 | [≥1, ≥1, ≥1, ≥1, ≥1, ≥1] | 0.8474
 
-Use case: Naive Bayes
+Use case: <a href="https://en.wikipedia.org/wiki/Naive_Bayes_classifier">Naive Bayesian classifier</a>
 
 <hr>
 
