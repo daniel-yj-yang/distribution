@@ -93,7 +93,7 @@ Let's say we have a 3-sided (k=3) dice representing a day's trading outcomes, an
 
 If we trade n days | Sets of trading outcomes | Probability Mass Function | Decision
 --- | --- | --- | ---
-n = 100 days | [≥70 days, ≤25 days, ≤5 days] | 0.5547 | Outweight investment in the small-cap index
+n = 100 days | [≥70 days, ≤25 days, ≤5 days] | 0.5547 | An outweight investment in the small-cap index
 
 <hr>
 
